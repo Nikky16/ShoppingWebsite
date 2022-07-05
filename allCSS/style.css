@@ -1,0 +1,956 @@
+*{
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.mainContainer{
+    /* border: 1px solid black; */
+    top: -10px;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background: url('../images/background.jpeg');
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Conavbar{
+    width: 100%;
+    margin: 0px;
+    border: white 2px solid;
+    background-color: rgb(230, 238, 255);
+}
+.navbarhai{
+    /* border: 1px solid black;     */
+    width: 100%;
+    margin: 10px auto;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+    display: flex;
+    flex-direction: row;
+}
+.navbarhai ul{
+    margin: 0px;
+    margin-left: 20px;
+    width: 70%;
+    list-style-type: none;
+    padding: 5px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.navbarhai ul li{
+    list-style-type: none;
+}
+.navbarhai ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbarhai ul li a:hover{
+    color: red;
+}
+.search{
+    width: 30%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.search form{
+    width: 60%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-blue{
+    margin: 0px;
+    padding: 5px;
+    width: 100px;
+    color: white;
+    background-color: rgb(51, 102, 255);
+    border-radius: 1px;
+    border: 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-blue:hover{
+    background-color: rgb(0, 0, 204);
+}
+.btn-green{
+    padding: 5px;
+    width: 100px;
+    color: white;
+    background-color: rgb(0, 153, 0);
+    border-radius: 1px;
+    border: 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-green:hover{
+    background-color: rgb(0, 102, 0);
+}
+.btn-red{
+    padding: 5px;
+    width: 100px;
+    color: white;
+    background-color: rgb(230, 0, 0);
+    border-radius: 1px;
+    border: 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-red:hover{
+    background-color: rgb(179, 0, 0);
+}
+.chooseRegister{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.accountform{
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.twoform{
+    /* border: 2px solid blue; */
+    padding: 10px;
+    width: 80%;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+input{
+    padding: 5px;
+    width: 90%;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 15px;
+    border-radius: 2px;
+    background-color: rgb(242, 242, 242);
+
+    border: 2px solid rgb(179, 179, 179);
+}
+.alert{
+    margin-bottom: 0 rem;
+}
+.iconDiv{
+    width: 100%;
+    /* border: 2px solid blue; */
+    background-color: rgb(242, 242, 242);
+    border-radius: 2px;
+
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon img{
+    width:70%;
+    height: auto;
+    /* width: auto; */
+}
+/* ABOUT PAGE */
+.allPages{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid blue; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.eachPage{
+    padding: 10px;
+    margin: 10px;
+    width: 47%;
+    min-width: 300px;
+    min-height: 300px;
+    height: auto;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+}
+.eachPage:hover, .eachTable:hover{
+    box-shadow: 5px 5px 3px rgb(89, 89, 89);
+}
+.pageImage{
+    width: 100%;
+    /* height: 80%; */
+    /* border: 2px solid green; */
+}
+.pageImage img{
+    width: 100%;
+    height: auto;
+}
+.aboutNew{
+    background-color: rgb(242, 242, 242);
+    box-shadow: 10px 10px 6px rgb(89, 89, 89);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    padding:10px; font-size: 20px;
+}
+#mainHeading_h1{
+    font-size:60px;
+    color:rgb(0, 0, 77);
+    text-shadow: 3px 3px 1px rgb(230, 230, 255);
+}
+
+/* HOME PAGE */
+.homeContainer{
+    width: 100%;
+    /* min-height: 90vh; */
+    height: auto;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    background: url('../images/back4.webp');
+}
+/* .homeContainer::before{
+    content: '';
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background: url('../images/back2.jpeg');
+    opacity: 0.7;
+} */
+.hamariCaraosel{
+    width: 30%;
+    /* min-width: 300px; */
+    /* height: 50vh; */
+    height: 100%;
+    /* border: 2px solid green; */
+}
+.otherCon{
+    width: 70%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.homeH1{
+   font-size:70px;  
+}
+.designA{
+    /* color: black;  */
+    color: rgb(0, 0, 102);
+    font-size: 20px; 
+    font-weight: bolder;
+}
+.designA:hover{
+    text-decoration: none;
+    color: red;
+}
+.catcontainer{
+    width: 100%;
+    /* height: 90vh; */
+    background: url('../images/back4.webp');
+    height: auto;
+    min-height: 90vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anotherCon{
+    width: 90%;
+    height: 100%;
+    min-height: 90vh;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.particularCategory{
+    width: 90%;
+}
+.catElem{
+    margin: 50px;
+    min-width: 200px;
+    width: 20%;
+    height: 600px;
+    /* border: 2px solid red; */
+}
+.catElem:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.photo{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    /* border: 2px solid green; */
+    box-shadow: 5px 5px 2px rgb(89, 89, 89);
+}
+.photo img{
+    /* border-radius: 50%; */
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleh1{
+    font-weight: bolder;
+    font-family: 'Bacloo Bhaijaan 2', cursive;
+    text-shadow: 1.5px 1.5px white;
+}
+.eachcatElem{
+    margin: 30px;
+    width: 250px;
+    height: 500px;
+    /* border: 2px solid red; */
+    background-color: rgb(242, 242, 242);
+    border-radius: 10px;
+}
+.eachcatElem img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.imageCat{
+    margin: 0px;
+    width: 100%;
+    height: 70%;
+}
+.eachcatElem:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 2px rgb(89, 89, 89);
+}
+.priceRat{
+    padding-left: 20px;
+    margin: 0px;
+    width: 100%;
+    height: 30%;
+}
+.newCon{
+    /* padding-left: 50px; */
+    width: 95%;
+    height: auto;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+.accountContainer{
+    width: 95%;
+    height: auto;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.aboutPicture{
+    width: 33%;
+    /* margin: 20px; */
+    min-width: 300px;
+    height: 100vh;
+    /* height: auto; */
+    /* border: 2px solid red; */
+}
+.aboutPicture img{
+    width: 100%;
+    height: 90%;
+    /* border: 2px solid blue; */
+}
+.addList{
+    width: 100%;
+    height: 10%;
+    padding: 10px;
+    /* border: 2px solid blue; */
+    background-color: rgb(242, 242, 242);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid purple; */
+}
+.addList form{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid blue; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+.addWishButton{
+    width: 20%;
+}
+#wishButton{
+    width:80%; background-color: rgb(204, 0, 136);
+}
+.addList input[type="radio"]{
+    /* display: inline-block; */
+    transform: scale(2);
+    color: palevioletred;
+}
+.aboutCloth{
+    width: 33%;
+    min-width: 300px;
+    /* margin: 20px; */
+    min-height: 100vh;
+    height: auto;
+    /* border: 2px solid red; */
+    background-color: rgb(242, 242, 242);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    padding: 10px;
+}
+.rating_div{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid blue; */
+
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutCloth:hover, .aboutPicture:hover, .aboutReview:hover{
+    box-shadow: 5px 5px 3px rgb(89, 89, 89);
+}
+.orderForm{
+    width: 100%;
+    height: 75%;
+    height: auto;
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    padding: 10px;
+}
+.orderForm h2{
+    font-size: 30px;
+    /* font-family: 'Baloo Bhaijaan 2', cursive; */
+}
+.orderForm input[type="radio"]{
+    margin: 0px;
+    display: inline-block;
+    width: 20px;
+    transform: scale(1.2);
+}
+.orderForm div{
+    width: 100%;
+}
+.orderForm h5{
+    display: inline-block;
+    width: 50%;
+}
+.orderForm button{
+    width: 100%;
+}
+.orderForm h1, h3, h5{
+    font-weight: bolder;
+}
+
+/* ACCOUNT */
+.account{
+    width: 40%;
+    min-width: 300px;
+    height: auto;
+    min-height: 102vh;
+    /* border: 2px solid red; */
+    background-color: rgb(242, 242, 242);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    box-shadow: 5px 5px 3px rgb(77, 77, 77);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 10px;
+}
+#account_form{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 10px;
+}
+.namePic{
+    width: 100%;
+    min-height: 30%;
+    height: auto;
+    /* border: 2px solid blue; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.dp{
+    width: 45%;
+    height:  150px;
+    /* border: 2px solid red; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.otherInfo{
+    width: 100%;
+    /* height: 70%; */
+    height: auto;
+    /* border: 2px solid red; */
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* align-items: baseline; */
+}
+.otherInfo_div{
+    width: 100%;
+}
+.otherInfo textarea{
+    width: 100%;
+    height: 100px;
+}
+.otherInfo input{
+    width: 100%;
+    border: 1px solid rgb(115, 115, 115);
+}
+
+/* YOUR ORDERS */
+.yourOrder_Con{
+    width: 80%;
+}
+.yourOrder{
+    width: 29%;
+    min-height: 102vh;
+    min-width: 300px;
+    height: auto;
+    padding-top: 20px;
+    /* border: 2px solid red; */
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    background-color: rgb(242, 242, 242);
+    box-shadow: 5px 5px 3px rgb(77, 77, 77);
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+.yourOrder h1, .wishList h1{
+    text-align: center;
+    font-weight: bolder;
+}
+.allOrders{
+    width: 100%;
+    height: 85%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    justify-content: baseline;
+    align-items: center;
+}
+.eachOrder{
+    width: 90%;
+    /* min-height: 30%; */
+    height: auto;
+    min-height: 160px;
+    max-height: 300px;
+    max-width: 400px;
+
+    margin: 5px;
+    border: 2px solid rgb(89, 89, 89);
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+}
+.eachOrder:hover{
+    box-shadow: 5px 5px 3px rgb(89, 89, 89);
+}
+.orderBox{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid green; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.orderPic{
+    width: 30%;
+    height: 70%; 
+    min-height: 100px;   
+    /* border: 2px solid black; */
+}
+.orderPic img{
+    width: 100%;
+    height: 100%;
+}
+.orderInfo{
+    width: 65%;
+    height: 90%;    
+    padding: 10px;
+    /* border: 2px solid black; */
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+.smallCon{
+    width: 80%;
+    min-height: 90vh;
+    height: auto;
+    padding: 10px;
+    /* border: 2px solid blue; */
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    background-color: rgb(242, 242, 242);
+    box-shadow: 5px 5px 3px rgb(77, 77, 77);
+}
+.yourallOrder{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid purple; */
+}
+.sareOrders{
+    width: 100%;
+    height: 90%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: center;
+}
+.everyOrder{
+    width: 100%;
+    /* height: 30%;    */
+    min-height: 250px;
+    height: auto;
+    margin: 5px; 
+    border: 2px solid rgb(89, 89, 89);
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.everyOrder:hover{
+    box-shadow: 5px 5px 3px rgb(89, 89, 89);
+}
+.everyorderBox{
+    width: 40%;
+    min-width: 200px;
+    /* height: 100%; */
+    min-height: 150px;
+    height: auto;
+    /* border: 2px solid purple; */
+
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.linkDesign{
+    font-size: 20px;
+}
+.yourReview{
+    width: 50%;
+    min-width: 200px;
+    /* height: 100%; */
+    min-height: 150px;
+    height: auto;
+    /* border: 2px solid green; */
+}
+#review_form{
+    margin: 3px;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#reviewHeading{
+    font-size: 30px;
+}
+#reviewContent{
+    font-size: 20px;
+}
+.review_Author{
+    font-size: 20px;
+}
+.reviewBox{
+    height: 100%;
+    width: 100%;
+    padding: 10px;    
+    /* border: 2px solid blue; */
+
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+.reviewAuthor{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content:flex-end;
+    /* align-items: center; */
+}
+#review_Heading{
+    height: 15%; 
+    width:90%;
+}
+#review_Content{
+    height: 40%;
+    width:90%;
+}
+#submit_review{
+    width:90%; font-size: 15px; height: 15%;
+}
+
+/* YOUR WISHLIST */
+.yourWishList_Con{
+    width: 80%;
+}
+.wishList{
+    width: 29%;
+    min-height: 102vh;
+    min-width: 300px;
+    height: auto;
+    padding-top: 20px;
+    /* border: 2px solid red; */
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    background-color: rgb(242, 242, 242);
+    box-shadow: 5px 5px 3px rgb(77, 77, 77);
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.yourAllList{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid rebeccapurple; */
+}
+.sareItems{
+    width: 100%;
+    height: 90%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: center;
+}
+.everyItem{
+    width: 30%;
+    /* height: 30%;    */
+    height: 200px;
+    margin: 10px; 
+    border: 2px solid rgb(89, 89, 89);
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.everyItem:hover{
+    box-shadow: 5px 5px 3px rgb(89, 89, 89);
+}
+.everyWishBox{    
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid purple; */
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.noItemContain{
+    width: 80%;
+    height: 80%;
+    /* border: 2px solid blue; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.noItemContain_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid purple; */
+}
+#removeFromList{
+    width:auto; 
+    font-size:15px; 
+}
+
+/* ALL REVIEWS */
+.aboutReview{
+    width: 32%;
+    min-width: 300px;
+    /* margin: 20px; */
+    min-height: 100vh;
+    height: auto;
+    background-color: rgb(242, 242, 242);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    /* border: 2px solid red; */
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.revHeading{
+    width: 100%;
+    height: 10%;
+    /* border: 2px solid saddlebrown; */
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.selectedReviews{
+    width: 100%;
+    height: 80%;
+    /* border: 2px solid saddlebrown; */
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: center;
+}
+.eachReview{
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid red;
+    
+    border: 2px solid rgb(89, 89, 89);
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+}
+.eachReview:hover, .harReview:hover{
+    box-shadow: 5px 5px 3px rgb(89, 89, 89);
+}
+.allReviewLink{
+    width: 100%;
+    height: 10%;
+    /* border: 2px solid saddlebrown; */
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.saareReview{
+    width: 100%;
+    height: 90%;
+    /* border: 2px solid red; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: baseline;
+}
+.harReview{
+    width: 45%;
+    min-width: 200px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    
+    border: 2px solid rgb(89, 89, 89);
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+}
+.rev_Heading{
+    width: 100%;
+    height: 10%;
+    /* border: 2px solid saddlebrown; */
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.itemLink{
+    width: 100%;
+    padding: 10px;
+    /* border: 2px solid blue; */
+}

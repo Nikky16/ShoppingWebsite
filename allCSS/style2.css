@@ -1,0 +1,546 @@
+@media screen and (max-width: 820px) and (min-width: 500px){
+
+    /* NAVBAR */
+    .navbarhai ul{
+        font-size: 20px;
+    }
+    #logOutA{
+        font-size: 15px;
+    }
+    .search form{
+        width: auto;
+    }
+    #searchBtn{
+        width: 40px;
+        font-size: 10px;
+        height: 20px;
+        /* padding: 5px 5px 5px 5px; */
+        padding: 0px;
+    }
+    #searchInput{
+        width: 70px;
+        font-size: 10px;
+        height: 20px;
+    }    
+
+    /* HOME PAGE */
+    .hamariCaraosel{
+        width: 50%;
+    }
+    .otherCon{
+        width: 50%;
+        height: auto;
+    }
+    .homeH1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .hamariCaraosel{
+        height: 100%;
+        border: red;
+    }
+    .itemHai{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    /* NAVBAR */
+    .navbarhai ul{
+        font-size: 20px;
+    }
+    #logOutA{
+        font-size: 20px;
+    }
+    #searchBtn{
+        width: auto;
+        font-size: 10px;
+        padding: 5px 5px 5px 5px;
+        /* padding: 0px; */
+    }
+    #searchInput{
+        width: auto;
+        padding: 5px;
+        font-size: 10px;
+    }
+    .search{
+        width: auto;
+        padding: 10px;
+
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: baseline;
+    }
+    .search form{
+        width: auto;
+    }
+    .navbarhai{
+        flex-direction: column;
+    }
+    .navbarhai ul{
+        flex-direction: column;
+    }
+    
+    /* HOME PAGE */
+    .homeContainer{
+        flex-direction: column;
+    }
+    .hamariCaraosel{
+        width: 100%;
+    }
+    .otherCon{
+        width: 100%;
+        min-height: 500px;
+    }
+    .homeH1{
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 905px) {
+    .newCon{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 730px) {
+    .eachPage{
+        width: 80%;
+    }
+    #mainHeading_h1{
+        font-size: 50px;
+    }
+    #subHeading{
+        font-size: 30px;
+    }
+} 
+@media screen and (max-width: 1150px) {
+    .catElem{
+        margin: 30px;
+    }
+    .aboutCloth{
+        font-size: 15px;
+    }
+    .aboutReview{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 690px) and (min-width: 450px){
+    .particularCategory{
+        width: 100%;
+    }
+    .catElem{
+        margin: 15px;
+    }
+    .eachCatElem{
+        width: 250px;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 450px) {   
+    .particularCategory{
+        width: 100%;
+    }
+    .catElem{
+        margin: 15px;
+    }
+    .eachCatElem{
+        margin: 10px;
+        width: 250px;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 620px) {
+    .catElem{
+        width: 150px;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .catElem{
+        margin: 30px;
+    }
+    .aboutPicture{
+        width: 40%;
+    }
+    .aboutCloth{
+        width: 45%;
+        margin: 5px;
+    }
+    .aboutReview{
+        width: 95%;
+        margin: 10px;
+        min-height: 300px;
+    }
+}
+@media screen and (max-width: 640px) {    
+    .aboutPicture{
+        width: 70%;
+        margin: 10px;
+    }
+    .aboutCloth{
+        width: 70%;
+        margin: 10px;
+    }
+    .aboutReview{
+        width: 70%;
+        margin: 10px;
+    }
+
+}
+@media screen and (max-width: 1200px)   {
+    .orderAgain_link, .buyNow_Link{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1050px) and (min-width: 790px)  {
+    .orderAgain_link, .buyNow_Link{
+        font-size: 15px;
+    }
+    .accountContainer{
+        flex-wrap: wrap;
+    }
+    .account{
+        width: 60%;
+        /* width: 500px; */
+    }
+    .yourOrder{
+        width: 35%;
+        /* height: 90vh; */
+    }
+    .wishList .eachOrder{
+        width: 300px;
+    }
+    .wishList .allOrders{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+/* ACCOUNT */
+@media screen and (min-width: 800px) {
+    .account{
+        height: 100vh;
+    }
+    .yourOrder{
+        height: 100vh;
+    }
+    .wishList{
+        height: 100vh;
+    }
+}
+@media screen and (max-width: 1050px) and (min-width: 800px) {
+    .wishList{
+        height: auto;
+        width: 95%;
+        min-height: 250px;
+    }
+    .wishList .eachOrder{
+        min-height: 120px;
+        width: 250px;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 635px) {
+    .account_form .otherInfo{
+        height: 250px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .otherInfo{
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .account_Info{
+        width: 45%;
+        height: 100px;
+    }
+    .account{
+        width: 95%;
+        min-height: auto;
+    }
+    .yourOrder{
+        width: 45%;       
+    }
+    .wishList{
+        width: 45%;
+    }
+    .allOrders{
+        width: 100%;
+    }
+    .orderBox{
+        flex-direction: row;
+    }
+    /* .otherInfo{
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+    } */
+    .otherInfo_div{
+        display: inline-block;
+    }
+    .otherInfo h3{
+        font-size: 20px;
+    }
+    .otherInfo h1{
+        font-size: 30px;
+    }
+    .namePic{
+        margin: 20px;
+    }
+    .orderPic{
+        height: 100%;
+    }
+    .orderInfo{
+        height: 100%;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 635px) {
+    .account{
+        width: 95%;
+        min-height: auto;
+    }
+    .yourOrder{
+        width: 40%;   
+        min-width: 265px;     
+    }
+    .wishList{
+        width: 40%;
+        min-width: 265px;
+    }
+    .allOrders{
+        width: 100%;
+    }
+    .eachOrder{
+        width: 90%;
+        height: 160px;
+    }
+    .orderBox{
+        flex-direction: row;
+    }
+    .otherInfo{
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .otherInfo div{
+        display: inline-block;
+    }
+    .otherInfo h3{
+        font-size: 17px;
+    }
+    .otherInfo h1{
+        font-size: 25px;
+    }
+    .namePic{
+        margin: 17px;
+    }
+    .orderPic{
+        height: 100%;
+    }
+    .orderInfo{
+        height: 100%;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .accountContainer{
+        width: 80%;
+    }
+    .yourOrder{
+        width: 95%;
+    }
+    .wishList{
+        width: 95%;
+    }
+    .eachOrder{
+        height: 150px;
+    }
+    .otherInfo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .otherInfo div{
+        text-align: center;
+    }
+    .otherInfo h3{
+        font-size: 20px;
+    }
+}
+
+/* @media screen and (max-width: 635px) {    
+    .otherInfo h3{
+        font-size: 17px;
+    }
+    .otherInfo h1{
+        font-size: 25px;
+    }
+    .account{
+        width: 95%;
+    }
+    .yourOrder{
+        width: 95%;
+        min-height: auto;
+    }
+    .wishList{
+        width: 95%;
+        min-height: auto;
+    }
+    .allOrders{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .eachOrder{
+        height: 200px;
+        max-height: 150px;
+        max-width: 250px;
+    }
+} */
+/* YOUR ORDER PAGE */
+@media screen and (max-width: 900px) and (min-width: 800px) {
+    .everyOrder{
+        height: 200px;
+    }
+    .smallCon{
+        width: 90%;
+    }
+    .yourReview{
+        width: 60%;
+    }
+    .reviewBox{
+        font-size: 15px;
+        width: 100%;
+    }
+    .reviewContent{
+        font-size: 15px;
+    }
+    .linkDesign{
+        font-size: 15px;
+    }
+}
+/* YOUR ORDER PAGE */
+@media screen and (max-width: 800px) and (min-width: 600px) {
+    .yourOrder_Con{
+        width: 95%;
+    }
+    .sareOrders{
+        flex-direction: row;
+    }
+    .everyOrder{
+        margin-top: 20px;
+        height: auto;
+        width: 47%;
+    }
+    .yourReview{
+        margin-top: 10px;
+        width: 95%;
+        min-height: 400px;
+        height: auto;
+    }
+    #review_form{
+        height: 350px;
+    }
+    #reviewHeading{
+        font-size: 25px;
+    }
+    #reviewContent{
+        font-size: 17px;
+    }
+    #review_Author{
+        font-size: 15px;
+    }
+    #review_Heading{
+        width: 90%;
+    }
+    #review_Content{
+        height: 70%;
+        width: 90%;
+    }
+    #submit_review{
+        width: 90%;
+        padding: 5px;
+        height: 10%;
+    }
+    .everyorderBox{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+    .everyorderBox .orderInfo{
+        width: 60%;
+    }
+    /* .orderPic{
+        width: 40%;
+        padding-left: 5px;
+    } */
+    .reviewHeading h4{
+        font-size: 20px;
+    }
+}
+/* YOUR ORDER PAGE */
+@media screen and (max-width: 600px) {  
+    .sareOrders{
+        flex-direction: column;
+    }  
+    .everyOrder{
+        height: auto;
+        width: 100%;
+    }
+    .everyorderBox{
+        padding: 3px;
+        width: 100%;
+        height: 200px;
+    }
+    .orderPic{
+        height: 100%;
+        /* height: 150px; */
+    }
+    .yourReview{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 610px) {
+    .saareReview{
+        flex-direction: column;
+    }
+    .harReview{
+        width: 90%;
+    }
+}
+/* WISHLIST */
+@media screen and (max-width: 1200px) {
+    .yourWishList_Con{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 915px) {
+    .sareItems{
+        justify-content: center;
+    }
+    .everyItem{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 700px) {    
+    #removeFromList{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 530px) {    
+    .everyItem{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 530px) and (min-width: 350px){
+    #removeFromList{
+        font-size: 13px;
+    }
+}
